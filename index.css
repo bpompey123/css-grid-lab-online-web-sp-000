@@ -11,6 +11,8 @@ body {
   display: grid;
   grid-template: [header-start] 1fr [header-end] 1fr 1fr 1fr / 1fr 1fr 1fr;
   grid-gap: 5px;
+  justify-items: center;
+  align-items: center;
 }
 
 .grid-item {
